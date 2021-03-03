@@ -34,7 +34,7 @@ public class FlairEnchantment extends Enchantment {
             Vec3d targetPos = target.getPos();
 
             for(int i = 0; i < 7 * level; i++) {
-                mc.particleManager.addParticle(ParticleTypes.TOTEM_OF_UNDYING, targetPos.x + getRandomNumber(-1, 1), targetPos.y + 2 + getRandomNumber(-0.5, 1), targetPos.z + getRandomNumber(-1, 1), getRandomNumber(-3, 3), 1, getRandomNumber(-3, 3));
+                mc.particleManager.addParticle(ParticleTypes.TOTEM_OF_UNDYING, targetPos.x + getRandomNumber(-1, 1), targetPos.y + 2 + getRandomNumber(-0.5, 1), targetPos.z + getRandomNumber(-1, 1), getRandomNumber(-1.5, 1.5), 1, getRandomNumber(-1.5, 1.5));
             }
         }
     }
