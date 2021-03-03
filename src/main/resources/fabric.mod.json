@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "moreenchants",
+  "version": "0.1.0",
+
+  "name": "More Enchants",
+  "description": "",
+  "authors": [
+    "Jay"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/moreenchants/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.jay.moreenchants.MoreEnchants"
+    ]
+  },
+  "mixins": [
+    "moreenchants.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+
+  }
+}
